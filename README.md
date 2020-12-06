@@ -19,7 +19,7 @@ Query 8: Top 5 occupations that borrowed the most in 2016
 
 Query 9: Average number of borrowed books by job title
 
-
+Query 10: Create a VIEW and display the titles that were borrowed by at least 20% of clients
 
 
 
