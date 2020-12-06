@@ -17,6 +17,9 @@ Query 4: First and last names of the top 5 authors clients borrowed in 2017
 
 Purpose and Steps: First, select the columns for the authors' first and last names from the author table. The third column selected uses COUNT() to returns the number of times each combination of first and last name occurs. An alias is assigned to the third column. Foreign keys allow us to use associated records in three different tables: author, book, and borrower. The WHERE statement ensures that primary keys and foreign keys are equal, then limits the selected records to only those with a BorrowDate of 2017. GROUP BY displays the number of times each name occurs in the records. Finally, ORDER BY sorts the records from highest to lowest count (descending) and limits the number of records selected to the first 5, which are the top 5 authors clients borrowed in 2017.
 
+Query 5: Least 5 author nationalities clients borrowed during the years 2015-2017
+
+Purpose and Steps: First, select AuthorNationality from the author table. The second column selected contains a COUNT() of each time a book by an author of that nationality is borrowed. GROUP BY displays the count for each nationality. The count column is assigned an alias. The WHERE statement specifies which primary and foreign keys to use, and limits the records to ones where the BorrowDate is between 2015-2017. Finally, ORDER BY sorts the nationalities in ascending order by count and displays only the first 5.
 
 
 
