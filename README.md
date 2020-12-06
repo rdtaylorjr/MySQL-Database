@@ -13,5 +13,18 @@ Query 3: First and last names of clients that borrowed books in March 2018
 
 Purpose and Steps: First, select the columns for the client's first and last names from the client table. An INNER JOIN is used to join these columns to the BorrowDate field in the borrower table. The primary key ClientID in the client table and the foreign key ClientID in the borrower table allow the relevant records in the two tables to be used together. The WHERE statement ensures that only records where the BorrowDate in the borrower table equals 3/2018 are selected. BorrowDate is in the format YYYY-MM-DD, so MONTH() is used to return only the month and YEAR() is used to return only the year. USE INDEX forces the use of the relevant indexes in the client table for faster searching.
 
+Query 4: First and last names of the top 5 authors clients borrowed in 2017
+
+Purpose and Steps: First, select the columns for the authors' first and last names from the author table. The third column selected uses COUNT() to returns the number of times each combination of first and last name occurs. An alias is assigned to the third column. Foreign keys allow us to use associated records in three different tables: author, book, and borrower. The WHERE statement ensures that primary keys and foreign keys are equal, then limits the selected records to only those with a BorrowDate of 2017. GROUP BY displays the number of times each name occurs in the records. Finally, ORDER BY sorts the records from highest to lowest count (descending) and limits the number of records selected to the first 5, which are the top 5 authors clients borrowed in 2017.
+
+
+
+
+
+
+
+
+
+
 
 Computer Science 204: Database Programming
