@@ -30,8 +30,4 @@ Query 14: First and last names of authors that wrote books in more than one genr
 
 Programming Language: MySQL
 
-
-
-
-
 Computer Science 204: Database Programming
