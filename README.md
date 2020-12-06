@@ -1,4 +1,4 @@
-# MySQL-Database
+# MySQL-Database-Queries
 
 
 Query 1: Display all contents of the Clients table
@@ -21,7 +21,7 @@ Query 9: Average number of borrowed books by job title
 
 Query 10: Create a VIEW and display the titles that were borrowed by at least 20% of clients
 
-
+Query 11: The top month of borrows in 2017
 
 
 
