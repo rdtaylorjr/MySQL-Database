@@ -23,6 +23,7 @@ Query 10: Create a VIEW and display the titles that were borrowed by at least 20
 
 Query 11: The top month of borrows in 2017
 
+Query 12: Average number of borrows by age
 
 
 
