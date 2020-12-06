@@ -13,7 +13,7 @@ Query 5: Least 5 author nationalities clients borrowed during the years 2015-201
 
 Query 6: The book that was most borrowed during the years 2015-2017
 
-
+Query 7: Top borrowed genres for client born in years 1970-1980
 
 
 
