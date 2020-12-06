@@ -1,6 +1,5 @@
 # MySQL-Database-Queries
 
-
 Query 1: Display all contents of the Clients table
 
 Query 2: First names, last names, ages and occupations of all clients
@@ -27,5 +26,8 @@ Query 12: Average number of borrows by age
 
 Query 13: The oldest and the youngest clients of the library
 
+Query 14: First and last names of authors that wrote books in more than one genre
+
+Programming Language: MySQL
 
 Computer Science 204: Database Programming
