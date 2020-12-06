@@ -21,6 +21,9 @@ Query 5: Least 5 author nationalities clients borrowed during the years 2015-201
 
 Purpose and Steps: First, select AuthorNationality from the author table. The second column selected contains a COUNT() of each time a book by an author of that nationality is borrowed. GROUP BY displays the count for each nationality. The count column is assigned an alias. The WHERE statement specifies which primary and foreign keys to use, and limits the records to ones where the BorrowDate is between 2015-2017. Finally, ORDER BY sorts the nationalities in ascending order by count and displays only the first 5.
 
+Query 6: The book that was most borrowed during the years 2015-2017
+
+Purpose and Steps: First, BookTitle is selected from the book table. The second column is a COUNT() of each time a BookID was borrowed. The WHERE statement identifies the primary and foreign keys, and limits the selected records to BorrowDates between 2015-2017. GROUP BY displays the count of borrows for each book title. ORDER BY sorts the records by count in descending order and displays only the first one.
 
 
 
