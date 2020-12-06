@@ -15,7 +15,7 @@ Query 6: The book that was most borrowed during the years 2015-2017
 
 Query 7: Top borrowed genres for client born in years 1970-1980
 
-
+Query 8: Top 5 occupations that borrowed the most in 2016
 
 
 
