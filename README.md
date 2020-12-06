@@ -17,7 +17,7 @@ Query 7: Top borrowed genres for client born in years 1970-1980
 
 Query 8: Top 5 occupations that borrowed the most in 2016
 
-
+Query 9: Average number of borrowed books by job title
 
 
 
