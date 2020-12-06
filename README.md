@@ -29,8 +29,4 @@ Purpose and Steps: First, BookTitle is selected from the book table. The second 
 
 
 
-
-
-
-
 Computer Science 204: Database Programming
